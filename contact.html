@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contact | Petshop Tree House</title>
+
+        <link rel="icon" href="img/icon-logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/contact.css">
+
+        <!-- Importando Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Menu do Header -->
+        <header>
+            <div class="menu-home">
+                <h1><img src="img/white-logo2.png" id="logo-menu-home" alt="Tree house logo, with a tree house icon outline, the petshop's name and the tagline: Your Petshop."></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Preencher os dados -->
+            <fieldset class="container-form">
+                <form>
+                    <label for="first-name-last-name">Name:</label>
+                    <input type="text" id="first-name-last-name" class="input-standart" required placeholder="Full Name">
+
+                    <label for="text-email">E-mail:</label>
+                    <input type="email" id="text-email" class="input-standart" required placeholder="yourname@email.com">
+
+                    <label for="text-phone">Phone:</label>
+                    <input type="tel" id="text-phone" class="input-standart" required placeholder="(00) 91234-5678">
+
+                    <label for="message">Message</label>
+                    <textarea cols="70" rows="10" id="message" class="input-standart" required placeholder="Type your message"></textarea>
+
+                    <!-- Tipo de contato -->
+                    <fieldset>
+                        <legend>CHow do you prefer our contact?</legend>
+                        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">E-mail</label>
+                        
+                        <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone">Phone</label>
+                        
+                        <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    </fieldset>
+
+                    <!-- Selecao de horario de atendimento -->
+                    <fieldset>
+                        <legend>Which period do you prefer to be served?</legend>
+                        <select>
+                            <option>Morning</option>
+                            <option>Afternoon</option>
+                            <option>Evening</option>
+                        </select>
+                    </fieldset>
+
+                    <!-- Notificacoes por e-mail -->
+                    <label><input type="checkbox" class="checkbox" checked> I want to receive e-mails about Tree House</label>
+                    <input type="submit" value="Send" class="btn-send">
+                </form>
+            </fieldset>
+
+            <!-- Tabela de horarios -->
+            <div class="container-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Opening hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday to Saturday</td>
+                            <td>7h ~ 22h</td>
+                        </tr>
+                        <tr>
+                            <td>Sundays and holidays</td>
+                            <td>10h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>   
+
+        <!-- Rodapé -->
+        <footer>
+            <img src="img/white-logo.png" id="logo-footer" alt="Tree house logo, with a tree house icon outline, the petshop's name and the tagline: Your Petshop.">
+            <p class="copyright"> &copy; Copyright Petshop Tree House - 2020</p>
+        </footer>
+    </body>
+</html>

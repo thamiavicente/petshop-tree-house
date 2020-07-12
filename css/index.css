@@ -1,0 +1,180 @@
+/* Padrao geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2d2b2c;
+}
+
+/* Cabecalho */
+
+#logo-menu-home {
+    width: 10%;
+}
+
+header {
+    background: #69a88d;
+    padding: 20px 0;
+}
+
+.menu-home {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #176560;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e5bdb5;
+    font-weight: normal;
+}
+
+/* Conteudo da pagina */
+
+main {
+    background: linear-gradient(#f3eee6, #fefefe);
+}
+
+.img-banner {
+    width: 100%;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: #79ba9e;
+    text-transform: uppercase;
+    font-weight: bold;
+    clear: left;
+}
+
+.about {
+    padding-top: 4em;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.parrot {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    box-shadow: -10px -10px #69a88d;
+}
+
+.text-about {
+    padding-top: 15px;
+}
+
+.about p {
+    margin: 0 0 0.7em;
+}
+
+.about strong {
+    font-weight: bold;
+    color: #79ba9e;
+
+}
+
+.about em {
+    font-style: italic;
+}
+
+.map {
+    padding: 4em 0 0;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.map-google {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.benefits {
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits h2 {
+    padding-bottom: 25px;
+}
+
+.content-benefits {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.img-benefits {
+    width: 55%;
+    vertical-align: middle;
+    box-shadow: -25px -25px #69a88d;
+    opacity: 1;
+    transition: 500ms;
+}
+
+.img-benefits:hover {
+    opacity: 0.6;
+    box-shadow: 25px 25px #176560, -25px -25px #69a88d;
+}
+
+.list-benefits {
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.itens:before {
+    content: "🐾 ";
+}
+
+.video {
+    width: 560px;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4em;
+}
+
+/* Rodape */
+footer {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 20px 0;
+}
+
+#logo-footer {
+    width: 7%;
+}
+
+.copyright {
+    color: #DDDDDD;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+}

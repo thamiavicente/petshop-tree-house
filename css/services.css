@@ -1,0 +1,165 @@
+/* Geral do body*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2d2b2c;
+}
+
+/* Cabecalho */
+
+#logo-menu-home {
+    width: 10%;
+}
+
+header {
+    background: #69a88d;
+    padding: 20px 0;
+}
+
+.menu-home {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #176560;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e5bdb5;
+    font-weight: normal;
+}
+
+/* Servicos */
+
+main {
+    background: linear-gradient(#f3eee6, #fefefe);
+}
+
+.services {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+#grooming {
+	background: #e2d6c7;
+	border: 2px solid #c4b29d;
+	border-radius: 10px;
+}
+
+#grooming:hover {
+	border-color: #176560;
+}
+
+#grooming:hover h2 {
+	color: #176560;
+	font-size: 31px;
+}
+
+#grooming:active {
+	border-color: #79ba9e;
+}
+
+#sitter {
+	background: #ede89c;
+	border: 2px solid #d6b976;
+	border-radius: 10px;
+}
+
+#sitter:hover {
+	border-color: #176560;
+}
+
+#sitter:hover h2 {
+	color: #176560;
+	font-size: 31px;
+}
+
+#sitter:active {
+	border-color: #79ba9e;
+}
+
+#pet-food {
+	background: #e4bdb4;
+	border: 2px solid #b95a5a;
+	border-radius: 10px;
+}
+
+#pet-food:hover {
+	border-color: #176560;
+}
+
+#pet-food:hover h2 {
+	color: #176560;
+	font-size: 31px;
+}
+
+#pet-food:active {
+	border-color: #79ba9e;
+}
+
+.services li {
+	display: inline-block;
+	text-align: center;
+	width: 30%
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+}
+
+.services h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+.service-descricao {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.service-price {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.one-more-line {
+	padding: 0 0 20px 0;
+}
+
+/* Rodape */
+
+footer {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 20px 0;
+}
+
+#logo-footer {
+    width: 7%;
+}
+
+.copyright {
+    color: #DDDDDD;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+}

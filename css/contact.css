@@ -1,0 +1,135 @@
+/* Padrao geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2d2b2c;
+}
+
+/* Cabecalho */
+
+#logo-menu-home {
+    width: 10%;
+}
+
+header {
+    background: #69a88d;
+    padding: 20px 0;
+}
+
+.menu-home {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #176560;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e5bdb5;
+    font-weight: normal;
+}
+
+/* Principal */
+
+main {
+    background: linear-gradient(#f3eee6, #fefefe);
+}
+
+.container-form {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-standart {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.btn-send {
+    width: 40%;
+    padding: 15px 0;
+    background: #69a88d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    background: #176560;
+    transform: scale(1.03);
+}
+
+.container-table {
+    width: 940px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #69a88d;
+    color: #fff;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #69a88d;
+    padding: 8px 15px;
+}
+
+/* Rodape */
+
+footer {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 20px 0;
+}
+
+#logo-footer {
+    width: 7%;
+}
+
+.copyright {
+    color: #DDDDDD;
+    font-size: 13px;
+    margin: 20px 0 0;
+    text-align: center;
+}
