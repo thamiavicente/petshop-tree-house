@@ -15,9 +15,8 @@
 - Contact page with form and opening hours
 
 ## :computer: Deploy
-[Deploy](https://thamiavicente.github.io/petshop-tree-house/index.html)
-<br>
-[Code](https://github.com/thamiavicente/petshop-tree-house)
+- [Deploy](https://thamiavicente.github.io/petshop-tree-house/index.html)
+- [Code](https://github.com/thamiavicente/petshop-tree-house)
 
 ## :arrow_forward: How to run the code
 <p>1. Clone the repository to your machine</p>
